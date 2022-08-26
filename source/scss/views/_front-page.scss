@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto Serif', serif !important;
+}
+html {
+    scroll-behavior: smooth;
+    
+    body {
+        background-color: #FFEDD5;
+        header {
+            h1 {
+                color: #2D2C2A;
+                font-size: 28px;
+                font-weight: 700;
+                line-height: 33px;
+                letter-spacing: 0em;
+                text-align: center;
+
+                span {
+                    color: #995000;
+                    font-size: 28px;
+                    font-weight: 700;
+                    line-height: 33px;
+                    letter-spacing: 0em;
+                }
+            }
+            p {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 16px;
+                letter-spacing: 0em;
+                text-align: center;
+            }
+        }
+        .bodyPage {
+            .section {
+                .sectionName {
+                    padding: 8px 16px;
+                    background: #FED7AA;
+                    color: #2D2C2A;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 21px;
+                    letter-spacing: 0em;
+                    text-align: center;
+                    text-transform: uppercase;
+                }
+                .item {
+                    .content {
+                        flex: 0 0 70%;
+                        max-width: 70%;
+                        .name {
+                            color: #2D2C2A;
+                            font-size: 16px;
+                            font-weight: 700;
+                            line-height: 19px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                            text-transform: uppercase;
+                        }
+                        .description {
+                            color: #000;
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 21px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                        }
+                    }
+                    .price {
+                        color: #2D2C2A;
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 19px;
+                        letter-spacing: 0em;
+                    }
+                }
+            }
+        }
+    }
+}
